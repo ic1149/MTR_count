@@ -75,10 +75,18 @@ h2 {
   margin-right: 2vw;
 }
 
+#xrbox{
+  background-color: var(--xr);
+  color: white;
+}
 
+#swrbox{
+  background: var(--swr);
+  color: white;
+}
 
 footer {
-  background-color: #9e2133;
+  background-color: var(--swr); /* #9e2133 */
   color: white;
   padding: 4vw;
 }

@@ -10,7 +10,7 @@ async function xrcounting() {
   const duration = 1
   const interval = (duration / diffDays) * 1000
   for (let i = 0; i <= diffDays; i++) {
-    document.getElementById("xrcount").innerHTML = String(i) + " days";
+    document.getElementById("xrcount").innerHTML = "<strong>" + String(i) + "</strong> days";
     await sleep(interval);
 
   }
@@ -42,7 +42,7 @@ async function swrcounting() {
   const duration = 1
   const interval = (duration / diffDays) * 1000
   for (let j = 0; j <= diffDays; j++) {
-    document.getElementById("swrcount").innerHTML = String(j) + " days";
+    document.getElementById("swrcount").innerHTML = "<strong>" + String(j) + "</strong> days";
     await sleep(interval);
 
   }
