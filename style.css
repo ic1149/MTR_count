@@ -1,3 +1,8 @@
+:root{
+  --swr:#061b2c;
+  --xr:#773dbd;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -36,7 +41,7 @@ h1 {
   padding: 2vw;
   font-weight: 500;
   width: auto;
-  background-image: linear-gradient(to bottom right, #773dbd, #061b2c);
+  background-image: linear-gradient(to bottom right, var(--xr), var(--swr));
 }
 
 h2 {
